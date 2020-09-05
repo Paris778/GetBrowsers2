@@ -1,0 +1,22 @@
+{
+  "name": "portal-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack": "^1.6.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./jest.config.js",
+    "testEnvironment": "jest-environment-webdriver",
+    "testEnvironmentOptions": {
+      "browser": "chrome"
+    }
+  }
+}
